@@ -1,13 +1,15 @@
 import './App.css'
-import SimpleForms from './components/SimpleForms/SimpleForms'
-import Statefulform from './components/Statefulform/Statefulform'
+import RefFrom from './components/RefFrom/RefFrom'
+// import SimpleForms from './components/SimpleForms/SimpleForms'
+// import Statefulform from './components/Statefulform/Statefulform'
 
 function App() {
 
   return (
     <>
       {/* <SimpleForms></SimpleForms> */}
-      <Statefulform></Statefulform>
+      {/* <Statefulform></Statefulform> */}
+      <RefFrom></RefFrom>
     </>
   )
 }
