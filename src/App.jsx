@@ -4,7 +4,7 @@ import ReusableForm from './components/ReusableForm/ReusableForm'
 // import RefFrom from './components/RefFrom/RefFrom'
 // import SimpleForms from './components/SimpleForms/SimpleForms'
 // import Statefulform from './components/Statefulform/Statefulform'
-
+import Grandpa from "./components/Grandpa/Grandpa"
 function App() {
 
   const handleSignUpSubmit = data => {
@@ -43,6 +43,9 @@ function App() {
         <h4>Stay Updated!</h4>
 
       </ReusableForm>
+
+
+      <Grandpa></Grandpa>
     </>
   )
 }
